@@ -44,21 +44,7 @@ body{
   position: relative;
   top: 15%;
 }
-.card-color2{
-  background-color: #2B8EAD;
-}
-.card-color1{
-  background-color: #6F98A8 ;
-}
-.card-color6{
-  background-color: #BFBFBF;
-}
-.card-color3{
-  background-color: #2F454E;
-}
-.card-color5{
-  background-color: #72C3DC;
-}
+
 .btn-shuffel{
   background-color: #72C3DC;
   padding: 13px;
