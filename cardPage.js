@@ -1,7 +1,3 @@
-// const card1 = [1,8,'#6F98A8'];
-// const card2 = [2,4,'#2B8EAD'];
-// const card3 = [3,5,9,'#2F454E'];
-// const card4 = [6,7,'#BFBFBF'];
 const numberColorCombination = [
     {key:1,color:'#6F98A8'},
     {key:2,color:'#2B8EAD'},
@@ -16,10 +12,7 @@ const numberColorCombination = [
 const map = new Map();
 
 const onShuffel = () =>{
-    let shuffledNumbers = [6,8,1,9,3,4,2,5,7]
-    // document.getElementById('1').firstChild.innerHTML = 2;
-    // document.getElementById('1').style.background = '#2B8EAD';
-    // console.log(document.getElementById('1').innerText);
+    let shuffledNumbers = [6,8,1,9,3,4,2,5,7];
     console.log("shuffel is clicked--->");
     let myID = 1;
     shuffledNumbers.forEach(num => {
@@ -31,13 +24,9 @@ const onShuffel = () =>{
     });
 }
 const onSort = ()=>{
-    // document.getElementById('1').firstChild.innerHTML = 1;
-    // document.getElementById('1').style.background = '#6F98A8';
-    // for(let index = 1; index <10;index ++){
         numberColorCombination.forEach((num)=>{
              document.getElementById(String(num.key)).firstChild.innerHTML = num.key;
             document.getElementById(String(num.key)).style.background = num.color;
         })
-    // }
     console.log("sort the number");
 }
